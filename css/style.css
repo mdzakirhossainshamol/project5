@@ -1,0 +1,347 @@
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');
+
+.date-form { margin: 10px; }
+label.control-label span { cursor: pointer; }
+p {
+    color: #535353;
+    font-size: 16px;
+    font-weight: 50
+        a.first_buttom {
+    color: #222;
+    padding: 13px;
+}0;
+    text-align: justify;
+}
+
+.right{float: right}
+a.first_buttom {
+    color: #222;
+    padding: 13px;
+    text-decoration: none;
+}
+.control-group{margin-top: 25px}
+
+/*--------------------header_area--------------*/
+.logo_name{
+   font-weight: 600;
+    font-size: 34px;
+
+}
+
+.fa_style_p{
+   font-size: 30px;
+   
+}
+
+.call_us,.fa_style_m{
+   margin-top: 10px;
+
+}
+.btn_book,.btn_read,.btn_sub {
+    background-color: #C8B191;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    margin-top: 10px;
+    float: right;
+}
+.btn_read{padding: 10px 20px}
+fa_style_c{font-size: 20px}
+
+/*--------------------End header_area--------------*/
+
+#banner_area img{position: relative;display: inline-block}
+#banner_area .inner_banner h1{
+    position: absolute;
+  top: 35%;
+  left: 30%;
+  right: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+  font-size: 18px;
+  font-weight: 300;
+  color: red;
+ 
+
+}
+
+
+/*-------------------- start navbar_area--------------*/
+
+
+ul.main_nav li a {
+    color: #222;
+    font-weight: 500;
+    font-size: 15px;
+}
+ul.main_nav li a:hover {
+   background: none;
+}
+ul.main_nav li a.active {
+   position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+ul.main_nav li a.active:before{
+   content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+     bottom: 0;
+  background: #C8AE95;
+  height: 2px;
+    width: 80%;
+
+
+
+}
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #C8AE95;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+/*-------------------- End navbar_area--------------*/
+
+
+
+
+
+
+/*-------------------- start welcome_area--------------*/
+
+#welcome_area{margin-top: 50px;margin-bottom: 50px}
+.welcome_text img{margin: auto auto}
+.welcome_text h3{max-width: 900px;margin: auto auto;margin-bottom: 55px;color: #ABABAB}
+
+
+header.location h3,header.reservation h3{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+header.location h3:before,header.reservation h3:before,#appartments_area header.text-center h2:before,#what_guests_think_area header.text-center h2:before{
+    content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #C8AE95;
+  height: 1px;
+    width: 70%;
+    top:140%; 
+
+}
+header.reservation h3:before{width: 40%;}
+
+header.location h5 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #363636;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+
+/*-------------------- End welcome_area--------------*/
+
+
+
+
+/*-------------------- Start appartments_area--------------*/
+
+#appartments_area{margin-bottom: 50px}
+#appartments_area header.text-center h2:before{width: 10%;left: 45%;top: 8%;}
+#appartments_area header.text-center h2{margin-bottom: 80px}
+
+.fa_style_appartent{margin-top: 20px;font-size: 16px;margin-bottom: 20px;color: #74706D}
+
+
+
+/*-------------------- End appartments_area--------------*/
+
+
+
+/*-------------------- Start what_guests_think_area--------------*/
+#what_guests_think_area{margin-bottom: 50px}
+#what_guests_think_area header.text-center h2:before{width: 7%;left: 45%;top:14%}
+
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 6em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #f33;
+    opacity: 1;
+    overflow: hidden;
+    
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+/*-------------------- End what_guests_think_area--------------*/
+
+
+
+/*-------------------- Start call_us_area--------------*/
+
+#call_us_area{
+    background-image: url(../images/call_us.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+   position: relative;
+
+
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #FaFaFa;
+    opacity: .5;
+
+}
+.call_item1{
+    
+    position: absolute;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 4px;
+    width: 90%;
+    height: 270px;
+    margin-top: 80px;
+   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+    z-index: 3;
+}
+
+.fa_call{
+    font-size: 30px;
+    color: #FFF;
+    margin: 17px auto;
+}
+.icon_call{
+    background:#44273D;
+     width: 70px;
+    height: 70px;
+    margin: auto auto;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+/*-------------------- End call_us_area--------------*/
+
+
+/*-------------------- End call_us_area--------------*/
+#mail_info_area{height: 200px}
+.sign_up{float: right;}
+.margin_40{margin-top:40px}
+
+input.sign_subs {
+    height: 58px;
+    width: 100%;
+}
+.btn_sub{float: left;margin-top: 0}
+
+
+/*-------------------- End call_us_area--------------*/
+
+
+
+/*-------------------- Start contact_footer_area--------------*/
+
+#contact_footer_area{background: #F4F4F4}
+.place{color: #C8AE95;font-size: 25px}
+
+
+/*-------------------- End contact_footer_area--------------*/
+
